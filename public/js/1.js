@@ -1,0 +1,1 @@
+$(function(){$("#scrollie").load("lyt/scrollie.html");$("#ft").load("lyt/ft.html");});
