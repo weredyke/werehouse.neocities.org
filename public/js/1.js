@@ -1,1 +1,1 @@
-$(function(){$("#scrollie").load("lyt/scrollie.html");$("#ft").load("lyt/ft.html");});
+$(function(){$("#scrollie").load("lyt/scrollie.html");$("#wrap").load("lyt/nav.html");$("#ft").load("lyt/ft.html");});
