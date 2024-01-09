@@ -1,1 +1,1 @@
-$(function(){$("#scrollie").load("load/scrollie.html"); $("#wrap").load("load/nav.html"); $("#side").load("load/bar.html"); $("#ft").load("load/ft.html");});
+$(function(){$("#scrollie").load("load/scrollie.html"); $("#wrap").load("load/nav.html"); $("#side").load("load/side.html"); $("#ft").load("load/ft.html");});
