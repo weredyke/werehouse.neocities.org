@@ -22,7 +22,7 @@ body{
 }
 #main{
     margin:20px auto;
-    width:936px;
+    width:606px;
     background:#000;
     border:1px #fff solid;
     padding-bottom:10px;
@@ -33,7 +33,7 @@ body{
     border-spacing:0px
 }
 #hed{
-    background:#800000 url('/img/hdb.gif') top left/70px 100px repeat-x;
+    background:#800000 url('/img/banner/3.gif') top left/70px 100px;
     height:100px
 }
 /*nav*/
