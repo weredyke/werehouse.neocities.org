@@ -102,7 +102,7 @@ body{
     background:url('/img/chk.gif')
 }
 /*sidebars*/
-#rgt,#lft{
+#rgt{
     width:20%;
     vertical-align:top;
     text-align:center;
@@ -110,10 +110,10 @@ body{
     color:#fff;
     padding:10px
 }
-#rgt a,#lft a{
+#rgt a{
     color:#fff
 }
-#rgt ul,#lft ul{
+#rgt ul{
     text-align:left;
     list-style-image:url('/img/blt.gif');
     list-style-position:inside
