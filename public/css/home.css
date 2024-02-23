@@ -121,7 +121,7 @@ body{
 }
 #upd{
     height:120px;
-    width:150px;
+    width:100px;
     background:#fff;
     border:2px #800000 solid;
     overflow-y:scroll;
@@ -137,7 +137,7 @@ body{
     border:1px #000 solid
 }
 #upd::-webkit-scrollbar-thumb{
-    background:url('/img/chk.gif')
+    background:url('/img/misc/chk.gif')
 }
 #upd a{
     color:#800000
