@@ -88,7 +88,7 @@ body{
 }
 #cnt ul{
     text-align:left;
-    list-style-image:url('/img/blt.gif');
+    list-style-image:url('/img/px/13.gif');
     list-style-position:inside
 }
 #cnt a,#cnt a:hover,#cnt a:visited{
@@ -100,7 +100,7 @@ body{
     border:1px #000 solid
 }
 #wrp::-webkit-scrollbar-thumb{
-    background:url('/img/chk.gif')
+    background:url('/img/px/15.gif')
 }
 /*sidebars*/
 #rgt{
@@ -137,7 +137,7 @@ body{
     border:1px #000 solid
 }
 #upd::-webkit-scrollbar-thumb{
-    background:url('/img/misc/chk.gif')
+    background:url('/img/px/15.gif')
 }
 #upd a{
     color:#800000
@@ -179,6 +179,9 @@ body{
     border:2px #fff solid;
     background:linear-gradient(#ff0000, #000)
 }
+#ent h1{
+	font:
+}
 /*tab*/
 .tab{
     border-spacing:5px;
@@ -216,7 +219,7 @@ body{
     border:1px #000 solid
 }
 .form-panel::-webkit-scrollbar-thumb{
-    background:url('/img/chk.gif')
+    background:url('/img/px/15.gif')
 }
 /*txt*/
 .tit{
