@@ -9,9 +9,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
     display:block
 }
 /*fnt*/
-@font-face{
-    src:url('/fnt/mom.woff2') format('woff2'),url('/fnt/mom.woff') format('woff');
-    font-family:'mom'
+@font-face {
+    font-family: 'pol';
+    src: url('/type/pol.ttf') format(truetype);
 }
 /*main*/
 body{
@@ -170,7 +170,8 @@ body{
     height:200px;
     width:350px;
     border:2px #fff solid;
-    background:linear-gradient(#800000, #000)
+    background:linear-gradient(#800000, #000);
+	text-align: center;
 }
 #ent:hover{
     margin:auto;
@@ -180,7 +181,9 @@ body{
     background:linear-gradient(#ff0000, #000)
 }
 #ent h1{
-	font:
+	font-size: 70px;
+	color: #fff;
+	font-family: 'pol';
 }
 /*tab*/
 .tab{
