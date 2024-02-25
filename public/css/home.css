@@ -246,7 +246,7 @@ scrollbar-width: thin;
     background:#000;
     text-transform:uppercase
 }
-.strong{
+strong{
     font-weight:666
 }
 span{
@@ -264,6 +264,10 @@ a{
 a:hover,a:active,a:visited{
     text-decoration:underline;
     font-weight:666
+}
+
+#cnt {
+	
 }
 /*misc*/
 .box{
