@@ -16,7 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 /*main*/
 body{
     margin:0;
-    background:#000000;
+    background:#000000 url('img/bg/9.gif');
     font:14px Verdana,Tahoma,Arial,sans-serif;
     color:#ffffff
 }
