@@ -11,7 +11,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 /*fnt*/
 @font-face {
     font-family: 'pol';
-    src: url('/type/pol.ttf') format(truetype);
+    src: url('/type/pol.woff') format(woff);
+    src: url('/type/pol.woff2') format(woff2);
 }
 /*main*/
 body{
