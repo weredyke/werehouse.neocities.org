@@ -150,7 +150,8 @@ body{
     height:50px;
     width:100%;
     color: #fff;
-    text-align:center
+    text-align:center;
+	line-height:0;
 }
 #fot a{
     color:#fff;
