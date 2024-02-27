@@ -284,14 +284,14 @@ a:hover{
 #cnt h1, #cnt h2 {
   background-color: inherit;
   color: #000;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 700;
   letter-spacing: -1px;
   margin: 0 0 15px;
   padding: 0;
 }
 #cnt h2 {
-  font-size:1.6em;
+  font-size:1.2em;
   margin-bottom:10px
 }
 #cnt h3 {
