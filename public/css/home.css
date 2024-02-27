@@ -302,12 +302,6 @@ a:hover,a:active,a:visited{
   color:#8E0909;
   text-decoration:none
 }
-#cnt img {
-  border:1px solid #2A2A2A;
-  float:none;
-  margin:5px 5px 6px;
-  padding:4px
-}
 /*misc*/
 .box{
     margin:auto;
