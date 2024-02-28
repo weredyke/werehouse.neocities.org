@@ -130,7 +130,12 @@ body{
 #rgt a{
     color:#fff
 }
-#rgt ul{
+#upd ul{
+    text-align:left;
+    list-style-image:url('/img/px/16.gif');
+    list-style-position:inside
+}
+#fr ul{
     text-align:left;
     list-style-image:url('/img/px/13.gif');
     list-style-position:inside
