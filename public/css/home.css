@@ -286,17 +286,30 @@ a:hover{
     font-weight:666
 }
 
-#cnt h1, #cnt h2, #rgt h1, #rgt h2 {
+#cnt h1, #cnt h2{
   background-color: inherit;
   color: #000;
   font-size: 1.6em;
   font-weight: 700;
   letter-spacing: -1px;
-  margin: 0 0 15px;
+  margin: 0 0 12px;
   padding: 0;
 }
-#cnt h2, #rgt h2 {
+#rgt h1, #rgt h2 {
+  background-color: inherit;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+#cnt h2{
   font-size:1.2em;
+  margin-bottom:10px
+}
+#rgt h2 {
+  font-size:1em;
   margin-bottom:10px
 }
 #cnt h3 {
