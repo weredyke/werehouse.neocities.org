@@ -89,7 +89,7 @@ body{
 }
 #cnt ul{
     text-align:left;
-    list-style-image:url('/img/px/13.gif');
+    list-style-image:url('/img/px/16.gif');
     list-style-position:inside
 }
 #cnt a,#cnt a:hover,#cnt a:visited{
@@ -132,7 +132,7 @@ body{
 }
 #rgt ul{
     text-align:left;
-    list-style-image:url('/img/blt.gif');
+    list-style-image:url('/img/px/13.gif');
     list-style-position:inside
 }
 #upd{
