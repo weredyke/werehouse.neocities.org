@@ -40,7 +40,7 @@ body{
 }
 /*nav*/
 #nvw{
-    height:36px
+    height:30px
 }
 #nav{
     width:100%;
@@ -286,7 +286,7 @@ a:hover{
     font-weight:666
 }
 
-#cnt h1, #cnt h2 {
+#cnt h1, #cnt h2, #rgt h1, #rgt h2 {
   background-color: inherit;
   color: #000;
   font-size: 1.6em;
@@ -295,7 +295,7 @@ a:hover{
   margin: 0 0 15px;
   padding: 0;
 }
-#cnt h2 {
+#cnt h2, #rgt h2 {
   font-size:1.2em;
   margin-bottom:10px
 }
