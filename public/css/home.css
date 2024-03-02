@@ -353,6 +353,13 @@ a:hover{
     margin:20px auto;
     width:90%
 }
+#8831 img{
+	width:88px;
+	height:31px;
+	padding:3px;
+	margin:5px;
+	border: 1px #000 solid;
+}
 /*crs*
 /*,body{
     cursor:url(/img/crs/pointer0.png),pointer;
