@@ -224,18 +224,6 @@ body{
     background:#fff
 }
 /*blg*/
-:root,
-html[data-theme="light"] {
--- scrollbar-color: #000;
-}
-html[data-theme="dark"] {
---scrollbar-color: #ff0000;
-}
-html {
-scrollbar-color: var(--scrollbar-color);
-scrollbar-width: thin;
-}
-
 .form-panel{
     margin:auto;
     line-height:25px;
