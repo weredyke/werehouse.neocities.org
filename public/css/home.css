@@ -92,7 +92,7 @@ body{
     list-style-image:url('/img/px/16.gif');
     list-style-position:inside
 }
-#cnt a,#cnt a:hover,#cnt a:visited{
+#cnt a,#cnt a:hover{
     color:#800000
 }
 #wrp::-webkit-scrollbar{
