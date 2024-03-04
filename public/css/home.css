@@ -229,7 +229,7 @@ body{
     line-height:25px;
     padding:10px;
     border:#000 2px solid;
-    background:linear-gradient(#dddddd, #a1a1a1);
+	background: repeating-linear-gradient(to bottom, #dddddd 0px, #dddddd 25px, #ffffff 25px, #ffffff 50px);
     color:#000;
     text-align:left;
     height:400px;
