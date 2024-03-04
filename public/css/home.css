@@ -96,13 +96,17 @@ body{
     color:#800000
 }
 #wrp::-webkit-scrollbar{
+    width:0px
+}
+/*
+#wrp::-webkit-scrollbar{
     width:6px;
     background:#000;
     border:1px #000 solid
 }
 #wrp::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
-}
+} */
 #emoInfoNav{
   background-color:#000;
   color:#fff;
@@ -153,13 +157,16 @@ body{
     margin:auto
 }
 #upd::-webkit-scrollbar{
+    width:0px
+}/*
+#upd::-webkit-scrollbar{
     width:6px;
     background:#000;
     border:1px #000 solid
 }
 #upd::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
-}
+}*/
 #upd a{
     color:#800000
 }
@@ -239,13 +246,16 @@ body{
     display:none
 }
 .form-panel::-webkit-scrollbar{
+    width:0px
+}/*
+.form-panel::-webkit-scrollbar{
     width:6px;
     background:#000;
     border:1px #000 solid
 }
 .form-panel::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
-}
+}*/
 /*txt*/
 .tit{
     font-weight:666;
