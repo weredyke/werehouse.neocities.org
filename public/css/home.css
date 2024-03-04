@@ -95,8 +95,9 @@ body{
 #cnt a,#cnt a:hover{
     color:#800000
 }
-#wrp::-webkit-scrollbar{
-    width:0px
+#wrp{
+  scrollbar-color: #ff0000 #000;
+scrollbar-width: 6px
 }
 /*
 #wrp::-webkit-scrollbar{
@@ -156,9 +157,7 @@ body{
     padding:20px 10px 0px;
     margin:auto
 }
-#upd::-webkit-scrollbar{
-    width:0px
-}/*
+/*
 #upd::-webkit-scrollbar{
     width:6px;
     background:#000;
@@ -245,9 +244,7 @@ body{
 .form-panel:not(.active){
     display:none
 }
-.form-panel::-webkit-scrollbar{
-    width:0px
-}/*
+/*
 .form-panel::-webkit-scrollbar{
     width:6px;
     background:#000;
