@@ -262,6 +262,14 @@ body{
 .form-panel::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
 }*/
+/*art*/
+#art img {
+  border:1px solid #2A2A2A;
+  float:none;
+  margin:5px 5px 6px;
+  padding:4px;
+  width: 420px;
+}
 /*txt*/
 .tit{
     font-weight:666;
