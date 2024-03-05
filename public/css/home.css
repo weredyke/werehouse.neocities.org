@@ -270,6 +270,13 @@ body{
   padding:4px;
   width: 420px;
 }
+.draw-panel{
+    margin:auto;
+}
+.draw-panel:not(.active){
+    display:none
+}
+
 /*txt*/
 .tit{
     font-weight:666;
