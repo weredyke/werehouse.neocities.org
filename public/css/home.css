@@ -134,6 +134,12 @@ body{
 #rgt a{
     color:#fff
 }
+#rgt { 
+	border-image: url('/img/px/18.gif') 30 / 19px round;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+}
 #upd ul{
     text-align:left;
     list-style-image:url('/img/px/16.gif');
