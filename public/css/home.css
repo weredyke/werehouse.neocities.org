@@ -356,13 +356,11 @@ a:hover{
   color: #000;
  
 }
-
-#data th, td {
+#data th, #data td {
   text-align: left;
   padding: 4px;
   border: 1px solid #fff;
 }
-
 #data tr:nth-child(even) {background-color: #333;color:#eaeaea;}
 .box{
     margin:auto;
