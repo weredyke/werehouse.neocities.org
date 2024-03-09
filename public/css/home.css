@@ -349,11 +349,13 @@ a:hover{
 }
 /*misc*/
 .dl{
-    float: left;   
+    float: left; 
+	margin: 10px;	
 }
 
 .dr {
-    float: right;
+    float: right; 
+	margin: 10px;
 }
 .dw {
 	display: inline-block;
