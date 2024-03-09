@@ -355,7 +355,9 @@ a:hover{
 .dr {
     float: right;
 }
-
+.dw {
+	display: inline-block;
+}
 #statuscafe {
     padding: .5em;
     background-color: #333;
