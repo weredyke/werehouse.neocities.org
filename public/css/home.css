@@ -360,6 +360,7 @@ a:hover{
     padding: .5em;
     background-color: #333;
     border: 1px solid #000;
+	color: #fff;
 }
 #statuscafe-username {
     margin-bottom: .5em;
