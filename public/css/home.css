@@ -348,6 +348,17 @@ a:hover{
     font-weight:666
 }
 /*misc*/
+#statuscafe {
+    padding: .5em;
+    background-color: #333;
+    border: 1px solid #000;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
 #data table {
   border: 2px solid #000;
   border-collapse: collapse;
