@@ -348,6 +348,14 @@ a:hover{
     font-weight:666
 }
 /*misc*/
+.dl{
+    float: left;   
+}
+
+.dr {
+    float: right;
+}
+
 #statuscafe {
     padding: .5em;
     background-color: #333;
