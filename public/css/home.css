@@ -234,6 +234,9 @@ body{
     color:#fff;
     text-decoration:underline
 }
+#fot p {
+	line-height: 1.1em;
+}
 /*ind*/
 #ind{
     margin:100px auto;
