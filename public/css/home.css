@@ -351,6 +351,9 @@ a:hover{
     font-weight:666
 }
 /*misc*/
+.indt li {
+	text-indent: 50px;
+}
 .dl{
     float: left; 
 	margin: 10px;	
