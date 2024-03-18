@@ -1,5 +1,5 @@
 body{
-	background: yellow;
+	background: linear-gradient(cyan, yellow);
 }
 .wave{
     position:fixed;
