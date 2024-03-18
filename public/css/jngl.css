@@ -1,6 +1,6 @@
 .wave{
     position:fixed;
     bottom:0px;
+	background-image: url('/img/jngl/1.gif');
 	background-repeat: repeat-x;
-	height: 50px;
 }
