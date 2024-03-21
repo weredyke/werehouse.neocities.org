@@ -102,6 +102,8 @@ body{
   letter-spacing: -1px;
   margin: 0 0 12px;
   padding: 0;
+}
+#cnt h1{
   text-transform: uppercase;
 }
 #cnt h2{
