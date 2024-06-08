@@ -325,7 +325,20 @@ body{
 .draw-panel:not(.active){
     display:none
 }
-
+/*fursona*/
+#lobo{
+    margin:auto;
+    height:584px;
+    width:250px;
+	background: url('/img/lobo/lobo1.gif');
+}
+#lobo:hover{
+    
+    margin:auto;
+    height:584px;
+    width:250px;
+	background: url('/img/lobo/lobo2.gif');
+}
 /*txt*/
 .tit{
     font-weight:666;
