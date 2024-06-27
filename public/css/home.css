@@ -10,15 +10,25 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 }
 /*fnt*/
 @font-face {
+    font-family: 'nok';
+    src: url('/type/Courier New.woff') format(woff);
+    src: url('/type/Courier New.woff2') format(woff2);
+}
+@font-face {
     font-family: 'pol';
     src: url('/type/pol.woff') format(woff);
     src: url('/type/pol.woff2') format(woff2);
 }
+@font-face {
+    font-family: 'combat';
+    src: url('/type/combat.woff') format(woff);
+    src: url('/type/combat.woff2') format(woff2);
+}
 /*main*/
 body{
     margin:0;
-    background:#000000 url('/img/bg/9 .gif');
-    font:76% Verdana,Tahoma,Arial,sans-serif;
+    background:#000000 url('/img/bg/12.gif');
+    font:'Courier New';
     color:#ffffff
 }
 #main{
@@ -54,6 +64,7 @@ body{
     border-right:1px solid #2A2A2A;
     color:#fff;
     display:block;
+    font-family: 'Courier New';
     font-size:.9em;
     padding:5px;
     text-transform:uppercase;
@@ -63,6 +74,22 @@ body{
     background:#f0f0f0 linear-gradient(#434343 5%,#fff 25%,#fff 75%,#434343 95%) top left/100% 100%;
     color:#000;
     text-decoration:none
+}
+#emoInfoNav{
+  background-color:#000;
+  color:#fff;
+  padding:4px 10px;
+  margin-bottom:5px;
+  border:1px solid #8E0909;
+  font-family: 'Courier New';
+}
+#emoInfoNav a{
+  color:#fff;
+}
+#emoInfoNav a.current,
+#emoInfoNav a:hover{
+  color:#8E0909;
+  text-decoration:none
 }
 /*mid*/
 #mdw{
@@ -74,34 +101,42 @@ body{
 #mid{
     height:100%;
     width:100%;
-    color:#000
+    color:#fff
 }
 #wrp{
-    height:553px;
+    height:630px;
     overflow-y:auto
 }
 #cnt{
     height:100%;
     width:100%;
-    background:#fff;
+    background:#555;
     overflow-y:auto
 }
 #cnt ul{
+    font-family: 'Courier New';
     text-align:left;
-    list-style-image:url('/img/px/16.gif');
+    list-style-image:url('/img/px/13.gif');
     list-style-position:inside
-}
-#cnt a,#cnt a:hover{
-    color:#800000
 }
 #cnt h1, #cnt h2{
   background-color: inherit;
-  color: #000;
+  color: #800000;
+  font-family: 'combat';
   font-size: 1.6em;
   font-weight: 700;
   letter-spacing: -1px;
   margin: 0 0 12px;
   padding: 0;
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
 #cnt h1{
   text-transform: uppercase;
@@ -131,22 +166,6 @@ body{
 #wrp::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
 } */
-#emoInfoNav{
-  background-color:#000;
-  color:#fff;
-  padding:4px 10px;
-  margin-bottom:5px;
-  border:1px solid #8E0909
-}
-#emoInfoNav a{
-  color:#fff
-}
-#emoInfoNav a.current,
-#emoInfoNav a:hover{
-  color:#8E0909;
-  text-decoration:none
-}
-/*sidebars*/
 #rgt{
     width:150px;
     vertical-align:top;
@@ -156,11 +175,13 @@ body{
     padding:10px
 }
 #rgt a{
-    color:#fff
+    color:#fff;
+	font-family: 'Courier New';
 }
 #rgt h1, #rgt h2 {
   background-color: inherit;
   color: #fff;
+  font-family: 'combat'; 
   font-size: 1.4em;
   font-weight: 700;
   letter-spacing: -1px;
@@ -179,8 +200,26 @@ body{
 }
 #fr ul{
     text-align:left;
-    list-style-image:url('/img/px/13.gif');
     list-style-position:inside
+}
+#fr li{
+	font-family: 'Courier New';
+	padding: 3px;
+	width: 130px;
+    margin: auto;
+    text-align: center;
+	background: linear-gradient(to right, red, #940000);
+	color: #fff;
+	border: #fff 1px solid;
+	list-style-type: none
+}
+#fr li:hover{
+	background: #000;
+    transform: rotate(345deg);
+	text-decoration:none;
+	color: #000;
+	border: #ff0000 1px solid;
+	list-style-type: none
 }
 #upd{
     height:120px;
@@ -198,14 +237,18 @@ body{
   scrollbar-color: #666 #fff;
   scrollbar-width: thin
 }
-#upd h1 {
+#upd h4 {
   background-color: inherit;
   color: #000;
+  font-family:'Courier New';
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: -1px;
   margin: 0 0 8px;
   padding: 0;
+}
+#upd a{
+    color:#800000
 }
 /*
 #upd::-webkit-scrollbar{
@@ -216,9 +259,6 @@ body{
 #upd::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
 }*/
-#upd a{
-    color:#800000
-}
 /*foot*/
 #fot{
     background:#800000 linear-gradient(#8f090a,#000) repeat-x;
@@ -238,7 +278,7 @@ body{
     text-decoration:underline
 }
 #fot p {
-	line-height: 1.1em;
+	line-height: 0.5em;
 }
 /*ind*/
 #ind{
@@ -264,7 +304,6 @@ body{
 #ent h1{
 	font-size: 70px;
 	color: #fff;
-	font-family: 'pol';
 }
 /*tab*/
 .tab{
@@ -282,6 +321,7 @@ body{
     color:#000;
     background:#fff
 }
+
 /*blg*/
 .form-panel{
     margin:auto;
@@ -311,6 +351,7 @@ body{
 .form-panel::-webkit-scrollbar-thumb{
     background:url('/img/px/15.gif')
 }*/
+
 /*art*/
 #art img {
   border:1px solid #2A2A2A;
@@ -325,6 +366,7 @@ body{
 .draw-panel:not(.active){
     display:none
 }
+
 /*fursona*/
 #lobo{
     margin:auto;
@@ -337,9 +379,13 @@ body{
     margin:auto;
     height:584px;
     width:250px;
-	background: url('/img/lobo/lobo2.gif');
+	background: url('/img/lobo/lobo2 .gif');
 }
+
 /*txt*/
+p {
+	font-family:"Courier New";
+}
 .tit{
     font-weight:666;
     color:#800000;
@@ -348,10 +394,12 @@ body{
     text-transform:uppercase
 }
 strong{
-    font-weight:666
+    font-weight:666;
+    font-family: 'Courier New';
 }
 span{
-    background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#800000 25%,#800000 75%,rgba(0,0,0,0) 95%);
+	font-family: 'Courier New';
+    background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#000 25%,#000 75%,rgba(0,0,0,0) 95%);
     width:100%;
     padding:3px 50px;
     border-top:#000 1px solid;
@@ -360,12 +408,15 @@ span{
 }
 a{
     text-decoration:none;
-    font-weight:666
+    font-weight:666;
+	color:#ff0000;
 }
 a:hover{
     text-decoration:underline;
-    font-weight:666
+    font-weight:666;
+	color:#ff0000;
 }
+
 /*misc*/
 .spcr {
 	margin: 5px;
@@ -386,6 +437,7 @@ a:hover{
 	display: inline-block;
 }
 #statuscafe {
+    font-family: 'Courier New';
     padding: .5em;
     background-color: #333;
     border: 1px solid #000;
@@ -398,20 +450,32 @@ a:hover{
 #statuscafe-content {
     margin: 0 1em 0.5em 1em;
 }
-#data table {
+#data table{
+  font-family: 'Courier New';
   border: 2px solid #000;
   border-collapse: collapse;
   width: 420px;
-  background-color: #777;
   color: #000;
- 
+}
+#data a{
+  color: yellow;
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
 }
 #data th, #data td {
   text-align: left;
   padding: 4px;
   border: 1px solid #fff;
 }
-#data tr:nth-child(even) {background-color: #333;color:#eaeaea;}
+#data tr:nth-child(even) {background:linear-gradient(#888,#ccc,#888) top left/100% 100%}
+#data tr:nth-child(odd) {background:linear-gradient(#444,#777,#444) top left/100% 100%}
 .box{
     margin:auto;
     width:85%;
@@ -429,58 +493,119 @@ a:hover{
     margin:15px 20px;
     text-align:center
 }
-.art{
-    padding:5px;
-    border:1px #000 solid;
-    margin:20px auto;
-    width:90%
-}
-/*crs*
-/*,body{
-    cursor:url(/img/crs/pointer0.png),pointer;
+
+/*crs*/
+*,body{
+    cursor:url(/img/cur/1.png),pointer;
     -webkit-animation:cursor 300ms infinite;
     animation:cursor 700ms infinite
 }
 @-webkit-keyframes cursor{
     0%{
-        cursor:url(/img/crs/pointer0.png),pointer
+        cursor:url(/img/cur/1.png),pointer
+    }
+    12%{
+        cursor:url(/img/cur/2.png),pointer
+    }
+    27%{
+        cursor:url(/img/cur/3.png),pointer
+    }
+    39%{
+        cursor:url(/img/cur/4.png),pointer
+    }
+    52%{
+        cursor:url(/img/cur/5.png),pointer
+    }
+    67%{
+        cursor:url(/img/cur/6.png),pointer
+    }
+    85%{
+        cursor:url(/img/cur/7.png),pointer
     }
     100%{
-        cursor:url(/img/crs/pointer1.png),pointer
+        cursor:url((/img/cur/8.png),pointer
     }
 }
 @keyframes cursor{
     0%{
-        cursor:url(/img/crs/pointer0.png),pointer
+        cursor:url(/img/cur/1.png),pointer
+    }
+    12%{
+        cursor:url(/img/cur/2.png),pointer
+    }
+    27%{
+        cursor:url(/img/cur/3.png),pointer
+    }
+    39%{
+        cursor:url(/img/cur/4.png),pointer
+    }
+    52%{
+        cursor:url(/img/cur/5.png),pointer
+    }
+    67%{
+        cursor:url(/img/cur/6.png),pointer
+    }
+    85%{
+        cursor:url(/img/cur/7.png),pointer
     }
     100%{
-        cursor:url(/img/crs/pointer1.png),pointer
+        cursor:url((/img/cur/8.png),pointer
     }
 }
 a,a:hover{
-    cursor:url(/img/crs/link0.png),pointer;
+    cursor:url(/img/cur/11.png),pointer;
     -webkit-animation:link 300ms infinite;
     animation:link 700ms infinite
 }
 @-webkit-keyframes link{
     0%{
-        cursor:url(/img/crs/link0.png),pointer
+        cursor:url(/img/cur/11.png),pointer
     }
-    50%{
-        cursor:url(/img/crs/link1.png),pointer
+    12%{
+        cursor:url(/img/cur/12.png),pointer
+    }
+    27%{
+        cursor:url(/img/cur/13.png),pointer
+    }
+    39%{
+        cursor:url(/img/cur/14.png),pointer
+    }
+    52%{
+        cursor:url(/img/cur/15.png),pointer
+    }
+    67%{
+        cursor:url(/img/cur/16.png),pointer
+    }
+    85%{
+        cursor:url(/img/cur/17.png),pointer
     }
     100%{
-        cursor:url(/img/crs/link2.png),pointer
+        cursor:url((/img/cur/18.png),pointer
     }
 }
 @keyframes link{
     0%{
-        cursor:url(/img/crs/link0.png),pointer
+        cursor:url(/img/cur/11.png),pointer
     }
-    50%{
-        cursor:url(/img/crs/link1.png),pointer
+    12%{
+        cursor:url(/img/cur/12.png),pointer
+    }
+    27%{
+        cursor:url(/img/cur/13.png),pointer
+    }
+    39%{
+        cursor:url(/img/cur/14.png),pointer
+    }
+    52%{
+        cursor:url(/img/cur/15.png),pointer
+    }
+    67%{
+        cursor:url(/img/cur/16.png),pointer
+    }
+    85%{
+        cursor:url(/img/cur/17.png),pointer
     }
     100%{
-        cursor:url(/img/crs/link2.png),pointer
+        cursor:url((/img/cur/18.png),pointer
     }
 }
