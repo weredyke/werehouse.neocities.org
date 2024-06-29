@@ -207,19 +207,26 @@ body{
 	padding: 3px;
 	width: 130px;
     margin: auto;
-    text-align: center;
-	background: linear-gradient(to right, red, #940000);
+    text-align: right;
+	background: linear-gradient(#131313,#000);
+	border: 1px solid #1c1c1c;
 	color: #fff;
-	border: #fff 1px solid;
 	list-style-type: none
 }
 #fr li:hover{
-	background: #000;
-    transform: rotate(345deg);
+    cursor:url(/img/cur/11.png),pointer;
+    -webkit-animation:link 300ms infinite;
+    animation:link 700ms infinite;
+    background:linear-gradient(#562929,#000);
 	text-decoration:none;
-	color: #000;
-	border: #ff0000 1px solid;
-	list-style-type: none
+    border-radius: 0px 0px 10px 10px;
+	color: #ff0000;
+	list-style-type: none;
+	box-shadow: 3px 2px 7px #666
+	
+}
+#fr a:hover{
+	text-decoration:none
 }
 #upd{
     height:120px;
@@ -555,7 +562,7 @@ a:hover{
 a,a:hover{
     cursor:url(/img/cur/11.png),pointer;
     -webkit-animation:link 300ms infinite;
-    animation:link 700ms infinite
+    animation:link 700ms infinite;
 }
 @-webkit-keyframes link{
     0%{
