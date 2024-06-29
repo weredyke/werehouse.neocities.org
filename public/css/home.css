@@ -110,7 +110,7 @@ body{
 #cnt{
     height:100%;
     width:100%;
-    background:#555;
+    background:linear-gradient(#333,#111);
     overflow-y:auto
 }
 #cnt ul{
@@ -267,7 +267,7 @@ body{
 }*/
 /*foot*/
 #fot{
-    background:#800000 linear-gradient(#8f090a,#000) repeat-x;
+    background:linear-gradient(#8f090a,#000);
     border-top:2px #fff solid;
     height:50px;
     width:100%;
