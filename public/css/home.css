@@ -208,8 +208,8 @@ body{
 	width: 130px;
     margin: auto;
     text-align: right;
-	background: linear-gradient(#131313,#000);
-	border: 1px solid #1c1c1c;
+    background:linear-gradient(#000,#1e1e1e,#000) top left/100% 100%;
+	border: 1px solid #999;
 	color: #fff;
 	list-style-type: none
 }
@@ -217,12 +217,11 @@ body{
     cursor:url(/img/cur/11.png),pointer;
     -webkit-animation:link 300ms infinite;
     animation:link 700ms infinite;
-    background:linear-gradient(#562929,#000);
+    background:linear-gradient(#000,#666,#000) top left/100% 100%;
+	border: 1px solid #999;
 	text-decoration:none;
-    border-radius: 0px 0px 10px 10px;
 	color: #ff0000;
 	list-style-type: none;
-	box-shadow: 3px 2px 7px #666
 	
 }
 #fr a:hover{
@@ -389,6 +388,8 @@ body{
 	background: url('/img/lobo/lobo2 .gif');
 }
 
+.cl{transition:.1s;filter:invert(0%) opacity(1.0);position:absolute;image-rendering:pixelated}
+.cl:hover{opacity:0;transition:1.5s cubic-bezier(0,0.8,0.3,.8);filter:invert(100%) opacity(0.0)}
 /*txt*/
 p {
 	font-family:"Courier New";
