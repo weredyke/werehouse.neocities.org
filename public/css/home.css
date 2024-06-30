@@ -110,7 +110,7 @@ body{
 #cnt{
     height:100%;
     width:100%;
-    background:linear-gradient(#333,#111);
+    background:#222;
     overflow-y:auto
 }
 #cnt ul{
@@ -157,15 +157,6 @@ body{
   scrollbar-color: #666 #fff;
   scrollbar-width: thin
 }
-/*
-#wrp::-webkit-scrollbar{
-    width:6px;
-    background:#000;
-    border:1px #000 solid
-}
-#wrp::-webkit-scrollbar-thumb{
-    background:url('/img/px/15.gif')
-} */
 #rgt{
     width:150px;
     vertical-align:top;
@@ -256,15 +247,13 @@ body{
 #upd a{
     color:#800000
 }
-/*
-#upd::-webkit-scrollbar{
-    width:6px;
-    background:#000;
-    border:1px #000 solid
+#ft {
+	height: 150px;
+	width: 220px;
+    background:#fff;
+    border:2px #800000 solid;
 }
-#upd::-webkit-scrollbar-thumb{
-    background:url('/img/px/15.gif')
-}*/
+
 /*foot*/
 #fot{
     background:linear-gradient(#8f090a,#000);
@@ -392,7 +381,7 @@ body{
 .cl:hover{opacity:0;transition:1.5s cubic-bezier(0,0.8,0.3,.8);filter:invert(100%) opacity(0.0)}
 /*txt*/
 p {
-	font-family:"Courier New";
+	font-family:'Courier New';
 }
 .tit{
     font-weight:666;
