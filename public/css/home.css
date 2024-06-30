@@ -233,7 +233,7 @@ body{
   scrollbar-color: #800000 #fff;
   scrollbar-width: thin
 }
-#upd h4 {
+h4 {
   background-color: inherit;
   color: #000;
   font-family:'Courier New';
