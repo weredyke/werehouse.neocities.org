@@ -231,7 +231,7 @@ body{
 }
 
 #upd{
-  scrollbar-color: #666 #fff;
+  scrollbar-color: #800000 #fff;
   scrollbar-width: thin
 }
 #upd h4 {
@@ -248,10 +248,11 @@ body{
     color:#800000
 }
 #ft {
-	height: 150px;
+    height:120px;
 	width: 220px;
     background:#fff;
     border:2px #800000 solid;
+    padding:20px 10px 0px;
 }
 
 /*foot*/
