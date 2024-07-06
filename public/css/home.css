@@ -427,6 +427,9 @@ a:hover{
 .indt2 {
 	text-indent: 30px;
 }
+.indt3 {
+	text-indent: 45px;
+}
 .dl{
     float: left; 
 	margin: 10px;
