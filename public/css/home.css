@@ -349,6 +349,14 @@ h4 {
   padding:4px;
   width: 370px;
 }
+#ani img {
+  border:1px solid #2A2A2A;
+  float:none;
+  margin:5px 5px 6px;
+  padding:4px;
+  width: 100px;
+  height: 100px;
+}
 .draw-panel{
     margin:auto;
 }
