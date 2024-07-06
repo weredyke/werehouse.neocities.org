@@ -343,14 +343,14 @@ h4 {
 
 /*art*/
 #art img {
-  border:1px solid #111;
+  border:1px solid #fff;
   float:none;
   margin:5px 5px 6px;
   padding:4px;
   width: 370px;
 }
 #ani img {
-  border:1px solid #111;
+  border:1px solid #fff;
   float:none;
   margin:5px 5px 6px;
   padding:4px;
