@@ -416,7 +416,9 @@ a:hover{
     font-weight:666;
 	color:#ff0000;
 }
-
+.teen {
+	font-size:.5em;
+}
 /*misc*/
 .spcr {
 	margin: 5px;
