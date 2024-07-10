@@ -44,7 +44,8 @@ body{
 }
 #hed{
     background:#800000 url('/img/banner/0.gif');
-    height:70px;
+    background-position:0px 25px;
+    height:90px;
 	text-align: center
 }
 #newsflash {
