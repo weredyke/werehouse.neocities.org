@@ -192,6 +192,7 @@ body{
 	padding: 3px;
 	width: 130px;
     margin: auto;
+    margin: auto;
     text-align: right;
     background:linear-gradient(#000,#1e1e1e,#000) top left/100% 100%;
 	border: 1px solid #999;
@@ -468,15 +469,7 @@ a:hover{
 }
 #data a{
   color: yellow;
-  text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
+  text-shadow:-1px -1px 0 #000,0   -1px 0 #000,1px -1px 0 #000,1px  0   0 #000,1px  1px 0 #000,0    1px 0 #000,-1px  1px 0 #000,-1px  0   0 #000;
 }
 #data th, #data td {
   text-align: left;
@@ -485,6 +478,24 @@ a:hover{
 }
 #data tr:nth-child(even) {background:linear-gradient(#888,#ccc,#888) top left/100% 100%}
 #data tr:nth-child(odd) {background:linear-gradient(#444,#777,#444) top left/100% 100%}
+#data2 table{
+  font-family: 'Courier New';
+  border: 2px solid #000;
+  border-collapse: collapse;
+  width: 170px;
+  color: #000;
+}
+#data2 a{
+  color: yellow;
+  text-shadow:-1px -1px 0 #000,0   -1px 0 #000,1px -1px 0 #000,1px  0   0 #000,1px  1px 0 #000,0    1px 0 #000,-1px  1px 0 #000,-1px  0   0 #000;
+}
+#data2 th, #data2 td {
+  text-align: left;
+  padding: 4px;
+  border: 1px solid #fff;
+}
+#data2 tr:nth-child(even) {background:linear-gradient(#888,#ccc,#888) top left/100% 100%}
+#data2 tr:nth-child(odd) {background:linear-gradient(#444,#777,#444) top left/100% 100%}
 .box{
     margin:auto;
     width:85%;
