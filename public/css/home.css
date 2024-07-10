@@ -27,7 +27,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 /*main*/
 body{
     margin:0;
-    background:#000000 url('/img/bg/12.gif');
+    background:#000000 200px url('/img/bg/12.gif');
     font:'Courier New';
     color:#ffffff
 }
