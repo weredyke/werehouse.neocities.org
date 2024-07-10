@@ -47,6 +47,16 @@ body{
     height:70px;
 	text-align: center
 }
+#newsflash {
+	height:25px;
+	width:100%;
+	background:#000;
+	color:#fff;
+}
+#newsflash marquee {
+	width:100%;
+	font-size:12px;
+}
 /*nav*/
 #nvw{
     height:30px
