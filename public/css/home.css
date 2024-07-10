@@ -45,14 +45,15 @@ body{
 #hed{
     background:#800000 url('/img/banner/0.gif');
     background-position:0px 20px;
-    height:90px;
+    height:85px;
 	text-align: center
 }
 #newsflash {
-	height:20px;
+	height:15px;
 	width:100%;
 	background:#000;
 	color:#fff;
+    font-family: 'Courier New';
 }
 #newsflash marquee {
 	width:100%;
