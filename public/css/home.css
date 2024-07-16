@@ -376,24 +376,6 @@ h4 {
     display:none
 }
 
-/*fursona*/
-#lobo{
-    margin:auto;
-    height:584px;
-    width:250px;
-	background: url('/img/lobo/lobo1.gif');
-}
-#lobo:hover{
-    
-    margin:auto;
-    height:584px;
-    width:250px;
-	background: url('/img/lobo/lobo2 .gif');
-}
-
-.cl{transition:.1s;filter:invert(0%) opacity(1.0);position:absolute;image-rendering:pixelated}
-.cl:hover{opacity:0;transition:1.5s cubic-bezier(0,0.8,0.3,.8);filter:invert(100%) opacity(0.0)}
-
 /*txt*/
 p {
 	font-family:'Courier New';
@@ -409,10 +391,11 @@ strong{
     font-weight:666;
     font-family: 'Courier New';
 }
-span{
+.span{
 	font-family: 'Courier New';
     background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#000 25%,#000 75%,rgba(0,0,0,0) 95%);
-    width:100%;
+    width:70%;
+	margin:auto;
     padding:3px 50px;
     border-top:#000 1px solid;
     border-bottom:#000 1px solid;
