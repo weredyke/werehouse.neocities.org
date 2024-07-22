@@ -36,7 +36,7 @@ body{
     width:666px;
     background:#000;
     border:1px #fff solid;
-    height:750px
+    height:770px
 }
 #main td,#main th{
     padding:0px;
@@ -427,12 +427,12 @@ a:hover{
 }
 .dl{
     float: left; 
-	margin: 10px;
+	margin: 5px;
 }
 
 .dr {
     float: right; 
-	margin: 10px;
+	margin: 5px;
 }
 .dw {
 	display: inline-block;
@@ -443,7 +443,7 @@ a:hover{
     background-color: #333;
     border: 1px solid #000;
 	color: #fff;
-	width: 160px;
+	width: 190px;
 }
 #statuscafe-username {
     margin-bottom: .5em;
