@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 /*main*/
 body{
     margin:0;
-    background:#ff22ff 50px url('/temp/bg.png');
+    background:#ff22ff 0px/50px url('/temp/bg.png');
     font:'Courier New';
     color:#ffffff
 }
