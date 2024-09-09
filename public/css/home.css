@@ -43,7 +43,7 @@ body{
     border-spacing:0px
 }
 #hed{
-    background:#800000 url('/img/banner/0.gif');
+    background:#800000 url('img/banner/0.gif');
     background-position:0px 20px;
     height:85px;
 	text-align: center
@@ -127,7 +127,7 @@ body{
 #cnt ul{
     font-family: 'Courier New';
     text-align:left;
-    list-style-image:url('/img/px/13.gif');
+    list-style-image:url('img/px/13.gif');
     list-style-position:inside
 }
 #cnt h1, #cnt h2{
@@ -211,7 +211,7 @@ body{
 	list-style-type: none
 }
 #fr li:hover{
-    cursor:url(/img/cur/11.png),pointer;
+    cursor:url(img/cur/11.png),pointer;
     -webkit-animation:link 300ms infinite;
     animation:link 700ms infinite;
     background:linear-gradient(#000,#666,#000) top left/100% 100%;
@@ -226,7 +226,7 @@ body{
 }
 #upd ul{
     text-align:left;
-    list-style-image:url('/img/px/16.gif');
+    list-style-image:url('img/px/16.gif');
     list-style-position:inside
 }
 #upd{
@@ -338,7 +338,7 @@ h4 {
     line-height:25px;
     padding:10px;
     border:#000 2px solid;
-	background: url('/img/bg/10.gif');
+	background: url('img/bg/10.gif');
     color:#000;
     text-align:left;
     height:400px;
@@ -507,116 +507,116 @@ a:hover{
 
 /*crs*/
 *,body{
-    cursor:url(/img/cur/1.png),pointer;
+    cursor:url(img/cur/1.png),pointer;
     -webkit-animation:cursor 300ms infinite;
     animation:cursor 700ms infinite
 }
 @-webkit-keyframes cursor{
     0%{
-        cursor:url(/img/cur/1.png),pointer
+        cursor:url(img/cur/1.png),pointer
     }
     12%{
-        cursor:url(/img/cur/2.png),pointer
+        cursor:url(img/cur/2.png),pointer
     }
     27%{
-        cursor:url(/img/cur/3.png),pointer
+        cursor:url(img/cur/3.png),pointer
     }
     39%{
-        cursor:url(/img/cur/4.png),pointer
+        cursor:url(img/cur/4.png),pointer
     }
     52%{
-        cursor:url(/img/cur/5.png),pointer
+        cursor:url(img/cur/5.png),pointer
     }
     67%{
-        cursor:url(/img/cur/6.png),pointer
+        cursor:url(img/cur/6.png),pointer
     }
     85%{
-        cursor:url(/img/cur/7.png),pointer
+        cursor:url(img/cur/7.png),pointer
     }
     100%{
-        cursor:url((/img/cur/8.png),pointer
+        cursor:url(img/cur/8.png),pointer
     }
 }
 @keyframes cursor{
     0%{
-        cursor:url(/img/cur/1.png),pointer
+        cursor:url(img/cur/1.png),pointer
     }
     12%{
-        cursor:url(/img/cur/2.png),pointer
+        cursor:url(img/cur/2.png),pointer
     }
     27%{
-        cursor:url(/img/cur/3.png),pointer
+        cursor:url(img/cur/3.png),pointer
     }
     39%{
-        cursor:url(/img/cur/4.png),pointer
+        cursor:url(img/cur/4.png),pointer
     }
     52%{
-        cursor:url(/img/cur/5.png),pointer
+        cursor:url(img/cur/5.png),pointer
     }
     67%{
-        cursor:url(/img/cur/6.png),pointer
+        cursor:url(img/cur/6.png),pointer
     }
     85%{
-        cursor:url(/img/cur/7.png),pointer
+        cursor:url(img/cur/7.png),pointer
     }
     100%{
-        cursor:url((/img/cur/8.png),pointer
+        cursor:url(img/cur/8.png),pointer
     }
 }
 a,a:hover{
-    cursor:url(/img/cur/11.png),pointer;
+    cursor:url(img/cur/11.png),pointer;
     -webkit-animation:link 300ms infinite;
     animation:link 700ms infinite;
 }
 @-webkit-keyframes link{
     0%{
-        cursor:url(/img/cur/11.png),pointer
+        cursor:url(img/cur/11.png),pointer
     }
     12%{
-        cursor:url(/img/cur/12.png),pointer
+        cursor:url(img/cur/12.png),pointer
     }
     27%{
-        cursor:url(/img/cur/13.png),pointer
+        cursor:url(img/cur/13.png),pointer
     }
     39%{
-        cursor:url(/img/cur/14.png),pointer
+        cursor:url(img/cur/14.png),pointer
     }
     52%{
-        cursor:url(/img/cur/15.png),pointer
+        cursor:url(img/cur/15.png),pointer
     }
     67%{
-        cursor:url(/img/cur/16.png),pointer
+        cursor:url(img/cur/16.png),pointer
     }
     85%{
-        cursor:url(/img/cur/17.png),pointer
+        cursor:url(img/cur/17.png),pointer
     }
     100%{
-        cursor:url((/img/cur/18.png),pointer
+        cursor:url(img/cur/18.png),pointer
     }
 }
 @keyframes link{
     0%{
-        cursor:url(/img/cur/11.png),pointer
+        cursor:url(img/cur/11.png),pointer
     }
     12%{
-        cursor:url(/img/cur/12.png),pointer
+        cursor:url(img/cur/12.png),pointer
     }
     27%{
-        cursor:url(/img/cur/13.png),pointer
+        cursor:url(img/cur/13.png),pointer
     }
     39%{
-        cursor:url(/img/cur/14.png),pointer
+        cursor:url(img/cur/14.png),pointer
     }
     52%{
-        cursor:url(/img/cur/15.png),pointer
+        cursor:url(img/cur/15.png),pointer
     }
     67%{
-        cursor:url(/img/cur/16.png),pointer
+        cursor:url(img/cur/16.png),pointer
     }
     85%{
-        cursor:url(/img/cur/17.png),pointer
+        cursor:url(img/cur/17.png),pointer
     }
     100%{
-        cursor:url((/img/cur/18.png),pointer
+        cursor:url(img/cur/18.png),pointer
     }
 }
