@@ -43,7 +43,7 @@ body{
     border-spacing:0px
 }
 #hed{
-    background:#800000 url('img/banner/0.gif');
+    background:#800000 url('/img/banner/0.gif');
     background-position:0px 20px;
     height:85px;
 	text-align: center
@@ -127,7 +127,7 @@ body{
 #cnt ul{
     font-family: 'Courier New';
     text-align:left;
-    list-style-image:url('img/px/13.gif');
+    list-style-image:url('/img/px/13.gif');
     list-style-position:inside
 }
 #cnt h1, #cnt h2{
@@ -226,7 +226,7 @@ body{
 }
 #upd ul{
     text-align:left;
-    list-style-image:url('img/px/16.gif');
+    list-style-image:url('/img/px/16.gif');
     list-style-position:inside
 }
 #upd{
@@ -338,7 +338,7 @@ h4 {
     line-height:25px;
     padding:10px;
     border:#000 2px solid;
-	background: url('img/bg/10.gif');
+	background: url('/img/bg/10.gif');
     color:#000;
     text-align:left;
     height:400px;
