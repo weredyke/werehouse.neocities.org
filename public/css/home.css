@@ -245,6 +245,28 @@ body{
   scrollbar-color: #800000 #fff;
   scrollbar-width: thin
 }
+
+#todo ul{
+    text-align:left;
+    list-style-image:url('/img/px/16.gif');
+    list-style-position:inside
+}
+#todo{
+    height:120px;
+    width:100px;
+    background:#fff;
+    border:2px #800000 solid;
+    overflow-y:scroll;
+    word-wrap:break-word;
+    font-size:12px;
+    color:#000;
+    padding:20px 10px 0px;
+}
+
+#todo{
+  scrollbar-color: #800000 #fff;
+  scrollbar-width: thin
+}
 h4 {
   background-color: inherit;
   color: #000;
