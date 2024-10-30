@@ -397,7 +397,9 @@ h4 {
 .draw-panel:not(.active){
     display:none
 }
-
+ .comm {
+  height: 100px;
+ }
 /*txt*/
 p {
 	font-family:'Courier New';
