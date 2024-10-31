@@ -408,14 +408,14 @@ p {
 	font-family:'Courier New';
 }
 .tit{
-    font-weight:666;
+    font-weight:888;
     color:#800000;
     padding:3px 6px;
     background:#000;
     text-transform:uppercase
 }
 strong{
-    font-weight:666;
+    font-weight:888;
     font-family: 'Courier New';
 }
 .span{
@@ -430,12 +430,12 @@ strong{
 }
 a{
     text-decoration:none;
-    font-weight:666;
+    font-weight:888;
 	color:#ff0000;
 }
 a:hover{
     text-decoration:underline;
-    font-weight:666;
+    font-weight:888;
 	color:#ff0000;
 }
 /*misc*/
