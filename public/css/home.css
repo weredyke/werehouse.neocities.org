@@ -132,7 +132,7 @@ body{
 }
 #cnt h1, #cnt h2{
   background-color: inherit;
-  color: #800000;
+  color: linear-gradient(#821e00,#270017);
   font-family: 'combat';
   font-size: 1.6em;
   font-weight: 700;
@@ -292,8 +292,7 @@ h4 {
 }
 
 /*footer*/
-#fot{
-    background:linear-gradient(#d52d00,#ff9a56,#fff,#d362a4,#a30262);
+    background:#fot{linear-gradient(#a75f2f,#270017);
     border-top:2px #fff solid;
     height:50px;
     width:100%;
