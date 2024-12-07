@@ -132,7 +132,7 @@ body{
 }
 #cnt h1, #cnt h2{
   background-color: inherit;
-  color:#800000 linear-gradient(#821e00, #270017);
+  color: #800000;
   font-family: 'combat';
   font-size: 1.6em;
   font-weight: 700;
