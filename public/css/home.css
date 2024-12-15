@@ -467,9 +467,9 @@ a:hover{
 #statuscafe {
     font-family: 'Courier New';
     padding: .5em;
-    background-color: #333;
+    background-color:#2b1f29;
     border: 1px solid #000;
-	color: #fff;
+	color: #ffebe3;
 	width: 190px;
 }
 #statuscafe-username {
