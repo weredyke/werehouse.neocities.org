@@ -35,7 +35,7 @@ body{
     margin:20px auto;
     width:686px;
     background:#000;
-    border:1px #fff solid;
+    border:1px #ffcab5 solid;
     height:770px
 }
 #main td,#main th{
@@ -65,7 +65,7 @@ body{
 #nav{
     width:100%;
     height:100%;
-    border:3px #fff solid;
+    border:3px #ffcab5 solid;
     text-align:center
 }
 #nav td{
@@ -121,7 +121,7 @@ body{
 #cnt{
     height:100%;
     width:100%;
-    background:#222;
+    background:#483b41;
     overflow-y:auto
 }
 #cnt ul{
@@ -232,7 +232,7 @@ body{
 #upd{
     height:140px;
     width:100px;
-    background:#fff;
+    background:#ffebe3;
     border:2px #800000 solid;
     overflow-y:scroll;
     word-wrap:break-word;
@@ -254,7 +254,7 @@ body{
 #todo{
     height:120px;
     width:100px;
-    background:#fff;
+    background:#ffebe3;
     border:2px #800000 solid;
     overflow-y:scroll;
     word-wrap:break-word;
@@ -283,7 +283,7 @@ h4 {
 #ft {
     height:150px;
 	width: 200px;
-    background:#fff;
+    background:#ffebe3;
     border:2px #800000 solid;
     word-wrap:break-word;
     font-size:12px;
