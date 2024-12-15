@@ -323,7 +323,7 @@ h4 {
     height:200px;
     width:350px;
     border:2px #fff solid;
-    background:linear-gradient(#800000, #000);
+    background:linear-gradient(#d62900, #ff9b55, #fff, #d462a5, #a50062);
 	text-align: center;
 }
 #ent:hover{
