@@ -29,7 +29,7 @@ body{
     margin:0;
     background:#000000 0/ 300px url('/img/bg/13.gif');
     font:'Courier New';
-    color:#ffffff
+    color:#ffebe3
 }
 #main{
     margin:20px auto;
@@ -43,7 +43,7 @@ body{
     border-spacing:0px
 }
 #hed{
-    background:#800000 url('/img/banner/6.gif');
+    background:#8e2c3f url('/img/banner/6.gif');
     background-position:0px 20px;
     height:85px;
 	text-align: center
@@ -52,7 +52,7 @@ body{
 	height:18px;
 	width:100%;
 	background:#000;
-	color:#fff;
+	color:#ffebe3;
     font-family: 'Courier New';
 }
 #newsflash marquee {
@@ -73,7 +73,7 @@ body{
 }
 #nav a{
     border-right:1px solid #2A2A2A;
-    color:#fff;
+    color:#ffebe3;
     display:block;
     font-family: 'Courier New';
     font-size:.9em;
@@ -88,14 +88,14 @@ body{
 }
 #emoInfoNav{
   background-color:#000;
-  color:#fff;
+  color:#ffebe3;
   padding:4px 10px;
   margin-bottom:5px;
   border:1px solid #8e2c3f;
   font-family: 'Courier New';
 }
 #emoInfoNav a{
-  color:#fff;
+  color:#ffebe3;
 }
 #emoInfoNav a.current,
 #emoInfoNav a:hover{
@@ -112,7 +112,7 @@ body{
 #mid{
     height:100%;
     width:100%;
-    color:#fff
+    color:#ffebe3
 }
 #wrp{
     height:630px;
@@ -165,7 +165,7 @@ body{
   text-decoration:none
 }
 #wrp{
-  scrollbar-color: #666 #fff;
+  scrollbar-color: #666 #ffebe3;
   scrollbar-width: thin
 }
 #rgt{
@@ -173,16 +173,16 @@ body{
     vertical-align:top;
     text-align:center;
     background:#171318;
-    color:#fff;
+    color:#ffebe3;
     padding:10px
 }
 #rgt a{
-    color:#fff;
+    color:#ffebe3;
 	font-family: 'Courier New';
 }
 #rgt h1, #rgt h2 {
   background-color: inherit;
-  color: #fff;
+  color: #ffebe3;
   font-family: 'combat'; 
   font-size: 1.4em;
   font-weight: 700;
@@ -207,7 +207,7 @@ body{
     text-align: right;
     background:linear-gradient(#000,#1e1e1e,#000) top left/100% 100%;
 	border: 1px solid #999;
-	color: #fff;
+	color:#ffebe3;
 	list-style-type: none
 }
 #fr li:hover{
@@ -233,7 +233,7 @@ body{
     height:140px;
     width:100px;
     background:#ffebe3;
-    border:2px #800000 solid;
+    border:2px #8e2c3f solid;
     overflow-y:scroll;
     word-wrap:break-word;
     font-size:12px;
@@ -242,7 +242,7 @@ body{
 }
 
 #upd{
-  scrollbar-color: #800000 #fff;
+  scrollbar-color: #8e2c3f #ffebe3;
   scrollbar-width: thin
 }
 
@@ -255,7 +255,7 @@ body{
     height:120px;
     width:100px;
     background:#ffebe3;
-    border:2px #800000 solid;
+    border:2px #8e2c3f solid;
     overflow-y:scroll;
     word-wrap:break-word;
     font-size:12px;
@@ -264,7 +264,7 @@ body{
 }
 
 #todo{
-  scrollbar-color: #800000 #fff;
+  scrollbar-color: #8e2c3f #ffebe3;
   scrollbar-width: thin
 }
 h4 {
@@ -278,13 +278,13 @@ h4 {
   padding: 0;
 }
 #upd a{
-    color:#800000
+    color:#8e2c3f
 }
 #ft {
     height:150px;
 	width: 200px;
     background:#ffebe3;
-    border:2px #800000 solid;
+    border:2px #8e2c3f solid;
     word-wrap:break-word;
     font-size:12px;
     color:#000;
@@ -294,19 +294,19 @@ h4 {
 /*footer*/
 	#fot{
     background:linear-gradient(#8e2c3f,#000);
-    border-top:2px #fff solid;
+    border-top:2px #ffcab5 solid;
     height:50px;
     width:100%;
-    color: #fff;
+    color: #ffebe3;
     text-align:center;
 	line-height:0;
 }
 #fot a{
-    color:#fff;
+    color:#ffebe3;
     text-decoration:none
 }
 #fot a:hover{
-    color:#fff;
+    color:#ffebe3;
     text-decoration:underline
 }
 #fot p {
@@ -322,7 +322,7 @@ h4 {
     margin:auto;
     height:200px;
     width:350px;
-    border:2px #fff solid;
+    border:2px #ffcab5 solid;
     background:linear-gradient(#d62900, #ff9b55, #fff, #d462a5, #a50062);
 	text-align: center;
 }
@@ -330,7 +330,7 @@ h4 {
     margin:auto;
     height:200px;
     width:350px;
-    border:2px #fff solid;
+    border:2px #ffcab5 solid;
     background:linear-gradient(#f33c29, #ffa581, #fff, #ff73d5, #cb239a)
 }
 #ent h1{
@@ -341,7 +341,7 @@ h4 {
 .tab{
     border-spacing:5px;
     text-align:center;
-    background:linear-gradient(#800000,#000);
+    background:linear-gradient(#8e2c3f,#000);
     border:1px #000 solid;
     padding:10px;
     margin:auto;
@@ -409,7 +409,7 @@ p {
 }
 .tit{
     font-weight:888;
-    color:#800000;
+    color:#8e2c3f;
     padding:3px 6px;
     background:#000;
     text-transform:uppercase
