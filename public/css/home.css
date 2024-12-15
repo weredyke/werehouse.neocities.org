@@ -426,7 +426,7 @@ strong{
     padding:3px 50px;
     border-top:#000 1px solid;
     border-bottom:#000 1px solid;
-    color:#8e2c3f
+    color:#ffcab5
 }
 a{
     text-decoration:none;
@@ -520,7 +520,7 @@ a:hover{
     height:auto;
     border:2px #800000 solid;
     padding:15px;
-    background:#8e2c3f;
+    background:#ffebe3;
     color:#000;
     text-align:center
 }
