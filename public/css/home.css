@@ -172,7 +172,7 @@ body{
     width:150px;
     vertical-align:top;
     text-align:center;
-    background:#000;
+    background:#171318;
     color:#fff;
     padding:10px
 }
@@ -420,7 +420,7 @@ strong{
 }
 .span{
 	font-family: 'Courier New';
-    background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#000 25%,#000 75%,rgba(0,0,0,0) 95%);
+    background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#171318 25%,#171318 75%,rgba(0,0,0,0) 95%);
     width:70%;
 	margin:auto;
     padding:3px 50px;
