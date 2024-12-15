@@ -91,7 +91,7 @@ body{
   color:#fff;
   padding:4px 10px;
   margin-bottom:5px;
-  border:1px solid #8E0909;
+  border:1px solid #8e2c3f;
   font-family: 'Courier New';
 }
 #emoInfoNav a{
@@ -99,7 +99,7 @@ body{
 }
 #emoInfoNav a.current,
 #emoInfoNav a:hover{
-  color:#8E0909;
+  color:#8e2c3f;
   text-decoration:none
 }
 /*mid*/
@@ -158,10 +158,10 @@ body{
 }
 #cnt h3 {
   font-size:1.4em;
-  color:#8E0909
+  color:#8e2c3f
 }
 #cnt h3 a {
-  color:#8E0909;
+  color:#8e2c3f;
   text-decoration:none
 }
 #wrp{
