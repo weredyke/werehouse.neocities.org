@@ -82,7 +82,7 @@ body{
     text-decoration:none
 }
 #nav a:hover{
-    background:#f0f0f0 linear-gradient(#434343 5%,#fff 25%,#fff 75%,#434343 95%) top left/100% 100%;
+    background:#f0f0f0 linear-gradient(#434343 5%,#ffebe3 25%,#ffa27d 75%,#434343 95%) top left/100% 100%;
     color:#000;
     text-decoration:none
 }
@@ -217,7 +217,7 @@ body{
     background:linear-gradient(#000,#666,#000) top left/100% 100%;
 	border: 1px solid #999;
 	text-decoration:none;
-	color: #ff0000;
+	color: #ffa27d;
 	list-style-type: none;
 	
 }
@@ -431,12 +431,12 @@ strong{
 a{
     text-decoration:none;
     font-weight:888;
-	color:#ff0000;
+	color:#ffa27d;
 }
 a:hover{
     text-decoration:underline;
     font-weight:888;
-	color:#ff0000;
+	color:#ffa27d;
 }
 /*misc*/
 .spcr {
