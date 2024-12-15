@@ -486,7 +486,7 @@ a:hover{
   color: #000;
 }
 #data a{
-  color: yellow;
+  color: #ffa27d;
   text-shadow:-1px -1px 0 #000,0   -1px 0 #000,1px -1px 0 #000,1px  0   0 #000,1px  1px 0 #000,0    1px 0 #000,-1px  1px 0 #000,-1px  0   0 #000;
 }
 #data th, #data td {
