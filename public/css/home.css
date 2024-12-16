@@ -494,8 +494,8 @@ a:hover{
   padding: 4px;
   border: 1px solid #fff;
 }
-#data tr:nth-child(even) {background:linear-gradient(#888,#ccc,#888) top left/100% 100%}
-#data tr:nth-child(odd) {background:linear-gradient(#444,#777,#444) top left/100% 100%}
+#data tr:nth-child(even) {background:linear-gradient(#9e8e89,#ffebe3,#9e8e89) top left/100% 100%}
+#data tr:nth-child(odd) {background:linear-gradient(#56443e,#81716c,#56443e) top left/100% 100%}
 #data2 table{
   font-family: 'Courier New';
   border: 2px solid #000;
