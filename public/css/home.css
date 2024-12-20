@@ -291,8 +291,8 @@ h4 {
     padding:10px 10px 0px;
 }
 #moonlite a:hover{ 
-	-webkit-filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.5));
-    filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.5));
+	-webkit-filter: drop-shadow(6px 6px 4px rgba(51, 41, 54, 0.5));
+    filter: drop-shadow(6px 6px 4px rgba(51, 41, 54, 0.5));
     }
 /*footer*/
 	#fot{
