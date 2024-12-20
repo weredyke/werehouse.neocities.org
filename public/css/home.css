@@ -290,10 +290,9 @@ h4 {
     color:#171318;
     padding:10px 10px 0px;
 }
-#moonlite a:hover{ 
-	-webkit-filter: drop-shadow(6px 6px 4px rgba(51, 41, 54, 0.5));
-    filter: drop-shadow(6px 6px 4px rgba(51, 41, 54, 0.5));
-    }
+#hitcount {
+	color: #8e2c3f;
+}
 /*footer*/
 	#fot{
     background:linear-gradient(#8e2c3f,#171318);
