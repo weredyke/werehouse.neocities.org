@@ -1,5 +1,5 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
-    margins:0;
+    margin:0;
     padding:0;
     border:0;
     font:inherit;
@@ -287,13 +287,13 @@ h4 {
     border:2px #8e2c3f solid;
     word-wrap:break-word;
     font-size:12px;
-    color:##171318;
+    color:#171318;
     padding:10px 10px 0px;
 }
 #moonlite a:hover{ 
 	-webkit-filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.5));
     filter: drop-shadow(12px 12px 7px rgba(255, 255, 255, 0.5));
-    }}
+    }
 /*footer*/
 	#fot{
     background:linear-gradient(#8e2c3f,#171318);
