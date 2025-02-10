@@ -322,14 +322,13 @@ h4 {
 /*index*/
 #doormat{
 	margin:100px auto;
-	width:1080px;
+	width:1000px;
 }
 .doormid{width:450px;vertical-align: middle;}
 .doorside{width:300px;vertical-align: middle;}
 #ind{
     height:auto;
     width:400px;
-	margin:100px auto;
 }
 #ent{
     margin:auto;
