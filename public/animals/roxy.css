@@ -1,4 +1,10 @@
-body{background:#ff00ff;}
+body{
+	background:#ff00ff;
+	margin:0px;
+}
+
+a:link, a:visited, a:active {
+    color: #4e607b;
 
 .verdana12 {
 	font-family: verdana;
