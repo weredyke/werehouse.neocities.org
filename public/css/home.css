@@ -323,6 +323,7 @@ h4 {
 #doormat{
 	margin:100px auto;
 	width:1080px;
+	vertical-align: middle;
 }
 .doormid{width:450px;}
 .doorside{width:300px;}
