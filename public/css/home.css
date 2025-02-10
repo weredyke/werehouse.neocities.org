@@ -328,7 +328,8 @@ h4 {
 .doorside{width:300px;vertical-align: middle;}
 #ind{
     height:auto;
-    width:400px
+    width:400px;
+	margin:100px auto;
 }
 #ent{
     margin:auto;
