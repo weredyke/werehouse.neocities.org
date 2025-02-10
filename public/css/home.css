@@ -323,10 +323,9 @@ h4 {
 #doormat{
 	margin:100px auto;
 	width:1080px;
-	vertical-align: middle;
 }
-.doormid{width:450px;}
-.doorside{width:300px;}
+.doormid{width:450px;vertical-align: middle;}
+.doorside{width:300px;vertical-align: middle;}
 #ind{
     height:auto;
     width:400px
