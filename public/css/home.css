@@ -24,6 +24,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
     src: url('/type/combat.woff') format(woff);
     src: url('/type/combat.woff2') format(woff2);
 }
+/*index*/
+#doormat{
+	margin:100px auto;
+	width:800px;
+}
 /*main*/
 body{
     margin:0;
