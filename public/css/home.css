@@ -541,7 +541,7 @@ a:hover{
 #data2 tr:nth-child(odd) {background:linear-gradient(#56443e,#81716c,#56443e) top left/100% 100%}
 .box{
     margin:auto;
-    width:85%;
+    width:69%;
     height:auto;
     border:2px #8e2c3f solid;
     padding:15px;
