@@ -31,6 +31,12 @@ body{
     font:'Courier New';
     color:#ffebe3
 }
+#blt {
+	border: 15px solid transparent;
+	border-image-source: url(/img/misc/blt.gif);
+	border-image-repeat: round;
+	border-image-slice: 21;
+}
 #main{
     margin:40px auto;
     width:686px;
