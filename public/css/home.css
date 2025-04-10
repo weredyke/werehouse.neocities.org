@@ -175,9 +175,9 @@ body{
   color:#8e2c3f;
   text-decoration:none
 }
-#wrp{
-  scrollbar-color: #666 #ffebe3;
-  scrollbar-width: thin
+#wrp {
+    scrollbar-color: #f79d7a #292025;
+    scrollbar-width: thin;
 }
 #rgt{
     width:150px;
