@@ -450,7 +450,6 @@ strong{
 .span{
 	font-family: 'Courier New';
     background:linear-gradient(90deg,rgba(0,0,0,0) 5%,#171318 25%,#171318 75%,rgba(0,0,0,0) 95%);
-    width:70%;
 	margin:auto;
     padding:3px 50px;
     border-top:#000 1px solid;
