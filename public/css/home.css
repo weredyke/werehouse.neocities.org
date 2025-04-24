@@ -357,8 +357,8 @@ h4 {
 }
 #ent:hover{
     margin:auto;
-    height:200px;
-    width:350px;
+    height:150px;
+    width:270px;
     border:2px #ffcab5 solid;
     background:linear-gradient(#f33c29, #ffa581, #fff, #ff73d5, #cb239a)
 }
