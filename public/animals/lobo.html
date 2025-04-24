@@ -35,6 +35,8 @@ border: 1px #000 solid
 }
 #nav a{
 color:var(--red);
+font-size:1.2rem;
+text-decoration: none;
 }
 #main{
 width:50rem;
@@ -72,6 +74,13 @@ padding:.5rem;
 .space{
 border-spacing: 10px;
 }
+
+.draw-panel{
+    margin:auto;
+}
+.draw-panel:not(.active){
+    display:none
+}
 </style>
    </head>
    <body>
@@ -80,7 +89,7 @@ border-spacing: 10px;
 
 <tr>
 <th id="nav">
-<img style="height:150px;" src=".png"><br><p>LOBO</p><hr>
+<img style="height:150px;" src=".png"><br><h2>LOBO</h2><hr>
 <a href="/animals/gallery/lobo.html" target="cont">Gallery</a><br>
 <a href="/animals/library/lobo.html" target="cont">Library</a><br>
 </th>
@@ -91,22 +100,41 @@ border-spacing: 10px;
 <tr>
 <th><img style="height:50px;margin:0px 20px 0px 0px" src=".png"></th>
 <th><h1 style="margin:0px;">LOBO</h1></th>
+<th><p style="margin:0px 0px 0px 10px;">he/him </p></th>
 </tr>
 </tbody>
 </table>
-<hr><div class="tint"><h3 class="mid">Profile</h3>
-<p>Species:</p>
-<p>Sex/uality:</p>
-<p>Body type:</p></div>
-<hr><table class="space"><tbody>
+
+<hr>
+
+<div class="tint"><h3 class="mid">Profile</h3>
+<p>Species:<br>
+Age:<br>
+Sex/uality:<br>
+Body type:</p></div>
+
+<hr>
+
+<table class="space"><tbody>
 <tr><th id="left"><iframe name="cont" id="cont" src="/animals/gallery/lobo.html"></iframe></th>
 <th class="tint" id="fash">
 <div><h3 class="mid">OUTFITS</h3>
-<div id="fits"></div></div>
+ <a class="previous">&#10510;</a> <a class="next">&#10511;</a>
+							<div id="art">
+							<div class="draw-panel active"><img src="/animal/fit/lobo1.png"></div>
+							<div class="draw-panel"><img src="/animal/fit/lobo2.png"></div>
+							
+							<script src="/js/art.js"></script>
+							</div>
+
+
+</div>
 </th>
 </tr>
 </tbody></table>
 
+<hr>
+<h3>MUSIC</h3>
 </th>
 </tr>
 
