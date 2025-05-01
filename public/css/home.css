@@ -182,7 +182,7 @@ body{
 }
 #wrp {
     scrollbar-color: #f79d7a #292025;
-    scrollbar-width: thin;
+    scrollbar-width: none;
 }
 #rgt{
     width:150px;
