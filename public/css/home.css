@@ -42,12 +42,12 @@ body{
     width:712px;
     background:#000;
     border:1px solid #fff;
-    border-image-repeat: stretch;
+    /*border-image-repeat: stretch;
     border-image-slice: 100%;
     border-image-source: none;
-  /* border-image-source: url(/img/misc/blt.gif);
-  border-image-repeat: round;
-  border-image-slice: 21; */
+    border-image-source: url(/img/misc/blt.gif);
+    border-image-repeat: round;
+    border-image-slice: 21; */
     height:770px
 }
 #main td,#main th{
