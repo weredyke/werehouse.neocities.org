@@ -491,6 +491,7 @@ a:hover{
 }
 .dw {
 	display: inline-block;
+	margin: 0px 60px;
 }
 #statuscafe {
     font-family: 'Courier New';
