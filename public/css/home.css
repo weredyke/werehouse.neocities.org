@@ -146,7 +146,8 @@ body{
     height:100%;
     width:100%;
     background:#3f353a 0 / 50px url('/img/bg/14.gif');
-    overflow-y:auto
+    overflow-y:auto;
+	text-align:center;
 }
 #cnt ul{
     font-family: 'Courier New';
