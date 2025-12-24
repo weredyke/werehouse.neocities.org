@@ -26,15 +26,16 @@ body{
     margin:0;
     background:#333 0/ 300px url('/img/bg/.gif');
     font-family:'Verdana';
-    color:#fff
+    color:#ccc
 }
 #main {
 margin:25px auto;
-background:#555;
+background:#555 url('https://were.house/img/bg/3.gif');
 height: 55rem;
 width: 800px;
-padding:5px;
+padding:0;
 border:5px solid #888;
+border-spacing: 5px;
 }
 #main td, #main th{
 border-spacing:0px;
@@ -43,15 +44,17 @@ border-spacing:0px;
 width:100%;
 height:50px;
 padding:5px;
+text-align:center;
 }
 #title h1{
 font-size:35px;
-font-weight:900;
-text-shadow: -3px -3px 0 #333, 3px -3px 0 #333, -3px 3px 0 #333, 3px 3px 0 #333;
+font-weight:999;
+-webkit-text-stroke: 10px #222;
+paint-order: stroke fill;
 }
 #nav{
-background:#888;
-width:150px;
+background:#999;
+width:175px;
 height:100%;
 padding:5px;
 vertical-align:top;
@@ -60,39 +63,54 @@ vertical-align:top;
 margin:2px;
 width:100%
 }
-#buttons ul{
-padding:0;
-}
 #buttons li{
 border:solid #333 2px;
+background:#555;
 width:%100;
 padding:2px;
 text-align: center;
+ list-style-type: none;
 }
 #buttons a, buttons a:hover{
-text-decoration:none:
 list-style-position:inside;
+color:red;
 }
 #main2{
-background:#888;
-width:650px;
+background:#999;
+width:625px;
 height:100%;
 padding:5px;
-border-left: 5px solid #555;
 vertical-align:top;
+}
+.wtv{
+margin:auto;
+font-weight:999;
 }
 	  </style>
    </head>
    <body>
    
    <table id="main">
-   <tr><td id="title" colspan="2"><h1>MY CHARACTERS</h1></td></tr>
+   <tr><td id="title" colspan="2"><h1><img src="">CARTOON ANIMALS</h1></td></tr>
    
-   <tr><td id="nav"><div id="buttons"><ul>
-   <li>1</li><br>
-   <li>2</li><br>
+   <tr><td id="nav">
+   <div id="buttons">
+   <h1 class="wtv">NAVIGATION <img src="https://were.house/img/px/56.gif"></h1><br>
+   <ul>
+   <li><a href="/chars.html">Characters</a></li><br>
+   <li><a href="/worlds.html">Worlds</a></li><br>
+   <hr><br>
+   <li><a href="/design.html">Designs</a></li><br>
+   <li><a href="/library.html">Library</a></li><br>
    </ul></div></td>
-   <td id="main2">lollolol</td></tr>
+   
+   <td id="main2">
+   <div>
+   <p>Welcome 2 my makeshift <strike>Toyhou.se</strike>.<br>
+   Here U can find all our fursonas</p>
+   <br><br>
+   <h3>Featured character</h3></div>
+   </td></tr>
    </table>
    
    </body>
