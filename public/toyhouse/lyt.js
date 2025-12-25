@@ -1,1 +1,1 @@
-$(function(){$("#nav").load("/toyhouse/nav.html");$("#nvw").load("/lyt/nav.html");});
+$(function(){$("#nav").load("https://were.house/toyhouse/nav.html");$("#nvw").load("/lyt/nav.html");});
