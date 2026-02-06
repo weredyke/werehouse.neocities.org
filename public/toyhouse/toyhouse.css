@@ -57,6 +57,9 @@ height:100%;
 padding:5px;
 vertical-align:top;
 }
+#nav a, #nav a:hover{
+	color:#4d3d68;
+}
 #buttons{
 margin:2px;
 width:100%;
