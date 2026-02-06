@@ -73,7 +73,7 @@ padding:2px;
 text-align: center;
  list-style-type: none;
 }
-#buttons a, buttons a:hover{
+#buttons a, #buttons a:hover{
 list-style-position:inside;
 color:#fb83ff;
 }
